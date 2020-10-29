@@ -35,7 +35,9 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Destroyer.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
+          <e p="SpawnObjects.cs" t="Include" />
         </e>
         <e p="Shipping Container Environment" t="Include">
           <e p="Readme.txt" t="Include" />
