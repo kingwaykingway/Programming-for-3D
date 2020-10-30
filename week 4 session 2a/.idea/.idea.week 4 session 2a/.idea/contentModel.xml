@@ -36,6 +36,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Destroyer.cs" t="Include" />
+          <e p="Grower.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
           <e p="SpawnObjects.cs" t="Include" />
         </e>

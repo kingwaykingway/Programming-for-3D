@@ -38,6 +38,7 @@
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Destroyer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnObjects.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Grower.cs" />
       </list>
     </option>
   </component>
@@ -81,7 +82,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603447867208</updated>
       <workItem from="1603447872045" duration="660000" />
-      <workItem from="1603977708705" duration="3328000" />
+      <workItem from="1603977708705" duration="3544000" />
+      <workItem from="1604055471294" duration="885000" />
     </task>
     <servers />
   </component>
