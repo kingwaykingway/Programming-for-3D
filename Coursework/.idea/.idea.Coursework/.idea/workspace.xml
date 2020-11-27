@@ -29,12 +29,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/PlayerInteraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/BoundaryShader.shader" />
+        <option value="$PROJECT_DIR$/Assets/ShowBoundary.cs" />
+        <option value="$PROJECT_DIR$/Assets/Outline Diffuse.shader" />
+        <option value="$PROJECT_DIR$/Assets/PlayerPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Ball.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/PlayerInteraction.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/DoorController.cs" />
       </list>
     </option>
   </component>
@@ -78,6 +86,10 @@
       <option name="presentableId" value="Default" />
       <updated>1605189339461</updated>
       <workItem from="1605189367437" duration="1576000" />
+      <workItem from="1605825885521" duration="5455000" />
+      <workItem from="1605868086084" duration="5827000" />
+      <workItem from="1606341738164" duration="2864000" />
+      <workItem from="1606397834888" duration="2454000" />
     </task>
     <servers />
   </component>
@@ -96,6 +108,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

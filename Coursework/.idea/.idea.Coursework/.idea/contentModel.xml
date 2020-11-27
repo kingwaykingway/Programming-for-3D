@@ -9,6 +9,23 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="_Scripts" t="Include">
+          <e p="DoorController.cs" t="Include" />
+          <e p="PlayerInteraction.cs" t="Include" />
+          <e p="SimpleCameraController.cs" t="Include" />
+        </e>
+        <e p="QuickOutline" t="Include">
+          <e p="Readme.txt" t="Include" />
+          <e p="Resources" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="OutlineFill.shader" t="Include" />
+              <e p="OutlineMask.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Outline.cs" t="Include" />
+          </e>
+        </e>
         <e p="SampleScenes" t="Include">
           <e p="Menu" t="Include">
             <e p="Scripts" t="Include">
@@ -27,9 +44,6 @@
           <e p="Shaders" t="Include">
             <e p="Skybox-Procedural.shader" t="Include" />
           </e>
-        </e>
-        <e p="Scripts" t="Include">
-          <e p="SimpleCameraController.cs" t="Include" />
         </e>
         <e p="Shipping Container Environment" t="Include">
           <e p="Readme.txt" t="Include" />
