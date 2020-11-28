@@ -2,13 +2,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = System.Random;
 
 public class DoorController : MonoBehaviour
 {
+    [SerializeField] private Vector3 ballSpawningPosition;
+    [SerializeField] private List<GameObject> ballPool;
+    
     private bool _isPlayerInBound;
 
     private Animator _animator;
-    
     private Collider _doorTrigger;
     
     void Start()
@@ -46,6 +49,9 @@ public class DoorController : MonoBehaviour
         if (other.gameObject.tag.Equals("Player"))
         {
             _animator.SetBool("IsOpen", false);
+
+            GameObject b = ballPool[new Random().Next(ballPool.Count)];
+            GameObject.Instantiate(b, ballSpawningPosition, Quaternion.identity);
         }
     }
 }
