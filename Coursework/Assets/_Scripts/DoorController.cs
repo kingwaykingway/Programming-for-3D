@@ -33,6 +33,7 @@ public class DoorController : MonoBehaviour
     public void Open()
     {
         _animator.SetBool("IsOpen", true);
+        SpawnBall();
     }
 
     private void OnCollisionEnter(Collision other)
@@ -50,8 +51,13 @@ public class DoorController : MonoBehaviour
         {
             _animator.SetBool("IsOpen", false);
 
-            GameObject b = ballPool[new Random().Next(ballPool.Count)];
-            GameObject.Instantiate(b, ballSpawningPosition, Quaternion.identity);
+            // SpawnBall();
         }
+    }
+
+    void SpawnBall()
+    {
+        GameObject b = ballPool[new Random().Next(ballPool.Count)];
+        GameObject.Instantiate(b, ballSpawningPosition, Quaternion.identity);
     }
 }
