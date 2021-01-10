@@ -73,7 +73,7 @@ public class PlayerInteraction : MonoBehaviour
     {
         if (other.tag.Equals("Interactive"))
         {
-            Debug.Log("1");
+            // Debug.Log("1");
             _reachableObjects.Add(other.gameObject);
         }
     }

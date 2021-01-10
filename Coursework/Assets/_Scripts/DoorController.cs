@@ -7,9 +7,11 @@ using Random = System.Random;
 public class DoorController : MonoBehaviour
 {
     [SerializeField] private Vector3 ballSpawningPosition;
+    [SerializeField] private bool useRelativePosition = true;
     [SerializeField] private List<GameObject> ballPool;
     
-    private bool _isPlayerInBound;
+    private bool _isPlayerPassing;
+    private Vector3 _enteredPosition;
 
     private Animator _animator;
     private Collider _doorTrigger;
@@ -24,16 +26,11 @@ public class DoorController : MonoBehaviour
             Debug.Log("The collider should be a trigger. ");
         }
     }
-    
-    void Update()
-    {
-        
-    }
 
     public void Open()
     {
         _animator.SetBool("IsOpen", true);
-        SpawnBall();
+        // SpawnBall();
     }
 
     private void OnCollisionEnter(Collision other)
@@ -45,19 +42,45 @@ public class DoorController : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            _enteredPosition = other.transform.position;
+            _isPlayerPassing = true;
+        }
+    }
+
     private void OnTriggerExit(Collider other)
     {        
-        if (other.gameObject.tag.Equals("Player"))
+        if (other.gameObject.CompareTag("Player") && _isPlayerPassing)
         {
             _animator.SetBool("IsOpen", false);
 
-            // SpawnBall();
+            var exitPosition = other.transform.position;
+            if (exitPosition.z > transform.position.z && _enteredPosition.z < transform.position.z)
+            {
+                SpawnBall();
+            }
+
+            _isPlayerPassing = false;
         }
     }
 
     void SpawnBall()
     {
         GameObject b = ballPool[new Random().Next(ballPool.Count)];
-        GameObject.Instantiate(b, ballSpawningPosition, Quaternion.identity);
+
+        var pos = ballSpawningPosition;
+        if (useRelativePosition)
+        {
+            /*var p = transform;
+            while (p.parent != null)
+            {
+                p = p.parent;
+            }*/
+            pos += transform.root.position;
+        }
+        Instantiate(b, pos, Quaternion.identity);
     }
 }

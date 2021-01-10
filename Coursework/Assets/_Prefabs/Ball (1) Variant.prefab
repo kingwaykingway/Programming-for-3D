@@ -15,7 +15,7 @@ PrefabInstance:
     - target: {fileID: 5175557094036376755, guid: d94a5d85e92d2f14c8306385fe578b50,
         type: 3}
       propertyPath: m_Name
-      value: Ball (1)
+      value: Ball (1) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5175557094036376755, guid: d94a5d85e92d2f14c8306385fe578b50,
         type: 3}
@@ -25,17 +25,17 @@ PrefabInstance:
     - target: {fileID: 5175557094036376764, guid: d94a5d85e92d2f14c8306385fe578b50,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5175557094036376764, guid: d94a5d85e92d2f14c8306385fe578b50,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5175557094036376764, guid: d94a5d85e92d2f14c8306385fe578b50,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5175557094036376764, guid: d94a5d85e92d2f14c8306385fe578b50,
         type: 3}

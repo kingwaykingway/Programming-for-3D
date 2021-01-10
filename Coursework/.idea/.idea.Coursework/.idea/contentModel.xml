@@ -35,6 +35,7 @@
             <e p="wood-938698.shader" t="Include" />
           </e>
         </e>
+        <e p="PlayerRevival.cs" t="Include" />
         <e p="QuickOutline" t="Include">
           <e p="Readme.txt" t="Include" />
           <e p="Resources" t="Include">
