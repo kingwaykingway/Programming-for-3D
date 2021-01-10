@@ -52,10 +52,6 @@ public class PlayerInteraction : MonoBehaviour
                 {
                     _highlightedObject.GetComponent<DoorController>().Open();
                 }
-                else if (_highlightedObject.GetComponent<LightSwitch>())
-                {
-                    _highlightedObject.GetComponent<LightSwitch>().Toggle();
-                }
                 else if (_heldBall == null)
                 {
                     pickUpBall();
@@ -78,9 +74,13 @@ public class PlayerInteraction : MonoBehaviour
         if (other.tag.Equals("Interactive"))
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             Debug.Log("1");
 >>>>>>> parent of be08006... 2021/1/10 update
+=======
+            // Debug.Log("1");
+>>>>>>> parent of 19007a1... 2021/1/10 #1
             _reachableObjects.Add(other.gameObject);
         }
     }
