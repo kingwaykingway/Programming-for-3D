@@ -7,9 +7,11 @@ using Random = System.Random;
 public class DoorController : MonoBehaviour
 {
     [SerializeField] private Vector3 ballSpawningPosition;
+    [SerializeField] private bool useRelativePosition = true;
     [SerializeField] private List<GameObject> ballPool;
     
-    private bool _isPlayerInBound;
+    private bool _isPlayerPassing;
+    private Vector3 _enteredPosition;
 
     private Animator _animator;
     private Collider _doorTrigger;
@@ -24,31 +26,11 @@ public class DoorController : MonoBehaviour
             Debug.Log("The collider should be a trigger. ");
         }
     }
-    
-    void Update()
-    {
-        
-    }
 
     public void Open()
     {
         _animator.SetBool("IsOpen", true);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         SpawnBall();
->>>>>>> parent of be08006... 2021/1/10 update
-=======
-        // SpawnBall();
->>>>>>> parent of 19007a1... 2021/1/10 #1
-=======
-        SpawnBall();
->>>>>>> parent of be08006... 2021/1/10 update
-=======
-        // SpawnBall();
->>>>>>> parent of 19007a1... 2021/1/10 #1
     }
 
     private void OnCollisionEnter(Collision other)
@@ -56,9 +38,6 @@ public class DoorController : MonoBehaviour
         if (other.gameObject.tag.Equals("Player"))
         {
             Debug.Log(gameObject + " hit the player");
-            // _animator
-<<<<<<< HEAD
-=======
         }
     }
 
@@ -68,7 +47,6 @@ public class DoorController : MonoBehaviour
         {
             _enteredPosition = other.transform.position;
             _isPlayerPassing = true;
->>>>>>> parent of 19007a1... 2021/1/10 #1
         }
     }
 
@@ -77,33 +55,18 @@ public class DoorController : MonoBehaviour
         if (other.gameObject.tag.Equals("Player"))
         {
             _animator.SetBool("IsOpen", false);
-
-            // SpawnBall();
         }
     }
 
     void SpawnBall()
     {
         GameObject b = ballPool[new Random().Next(ballPool.Count)];
-<<<<<<< HEAD
-<<<<<<< HEAD
 
         var pos = ballSpawningPosition;
         if (useRelativePosition)
         {
-            /*var p = transform;
-            while (p.parent != null)
-            {
-                p = p.parent;
-            }*/
             pos += transform.root.position;
         }
         Instantiate(b, pos, Quaternion.identity);
-=======
-        GameObject.Instantiate(b, ballSpawningPosition, Quaternion.identity);
->>>>>>> parent of be08006... 2021/1/10 update
-=======
-        GameObject.Instantiate(b, ballSpawningPosition, Quaternion.identity);
->>>>>>> parent of be08006... 2021/1/10 update
     }
 }

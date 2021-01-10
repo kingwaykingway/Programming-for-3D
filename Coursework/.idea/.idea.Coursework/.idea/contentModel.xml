@@ -12,6 +12,7 @@
         <e p="_Scripts" t="Include">
           <e p="DoorController.cs" t="Include" />
           <e p="PlayerInteraction.cs" t="Include" />
+          <e p="PlayerRevival.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
         </e>
         <e p="HighQualityBricks&amp;Walls" t="Include">
@@ -35,10 +36,6 @@
             <e p="wood-938698.shader" t="Include" />
           </e>
         </e>
-<<<<<<< HEAD
-=======
-        <e p="PlayerRevival.cs" t="Include" />
->>>>>>> parent of 19007a1... 2021/1/10 #1
         <e p="QuickOutline" t="Include">
           <e p="Readme.txt" t="Include" />
           <e p="Resources" t="Include">
