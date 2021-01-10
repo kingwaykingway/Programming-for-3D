@@ -26,16 +26,20 @@ public class PlayerInteraction : MonoBehaviour
     
     void Update()
     {
-        _highlightedObject = null;
         float angle = 90f;
-        
-        foreach (var o in _reachableObjects)
+
+        if (_heldBall == null)
         {
-            float a = Vector3.Angle(_mainCameraTransform.forward, o.transform.position - _mainCameraTransform.position);
-            if (Mathf.Abs(a) < angle)
+            _highlightedObject = null;
+            foreach (var o in _reachableObjects)
             {
-                _highlightedObject = o;
-                angle = a;
+                float a = Vector3.Angle(_mainCameraTransform.forward, o.transform.position - _mainCameraTransform.position);
+                if (Mathf.Abs(a) < angle)
+                {
+                    _highlightedObject = o;
+                    angle = a;
+                        
+                }
             }
         }
 

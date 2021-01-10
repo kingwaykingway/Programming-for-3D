@@ -15,7 +15,7 @@ MonoBehaviour:
   active: 1
   m_AdvancedMode: 0
   threshold:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.9
     min: 0
   intensity:
@@ -47,7 +47,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
     min: 0
---- !u!114 &-2415159739245925373
+--- !u!114 &-800433251831415261
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccf1aba9553839d41ae37dd52e9ebcce, type: 3}
   m_Name: MotionBlur
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   mode:
     m_OverrideState: 0
@@ -68,12 +68,12 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 2
   intensity:
-    m_OverrideState: 1
-    m_Value: 1
+    m_OverrideState: 0
+    m_Value: 0
     min: 0
     max: 1
   clamp:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.05
     min: 0
     max: 0.2
@@ -91,4 +91,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   components:
   - {fileID: -6612556377224161241}
-  - {fileID: -2415159739245925373}
+  - {fileID: -800433251831415261}
