@@ -75,12 +75,16 @@ public class PlayerInteraction : MonoBehaviour
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             Debug.Log("1");
 >>>>>>> parent of be08006... 2021/1/10 update
 =======
             // Debug.Log("1");
 >>>>>>> parent of 19007a1... 2021/1/10 #1
+=======
+            Debug.Log("1");
+>>>>>>> parent of be08006... 2021/1/10 update
             _reachableObjects.Add(other.gameObject);
         }
     }

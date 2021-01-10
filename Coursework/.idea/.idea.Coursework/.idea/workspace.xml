@@ -33,12 +33,15 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/Assets/LightSwitch.cs" root0="FORCE_HIGHLIGHTING" />
 =======
 >>>>>>> parent of be08006... 2021/1/10 update
 =======
     <setting file="file://$PROJECT_DIR$/Assets/PlayerRevival.cs" root0="FORCE_HIGHLIGHTING" />
 >>>>>>> parent of 19007a1... 2021/1/10 #1
+=======
+>>>>>>> parent of be08006... 2021/1/10 update
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -49,6 +52,7 @@
         <option value="$PROJECT_DIR$/Assets/Outline Diffuse.shader" />
         <option value="$PROJECT_DIR$/Assets/PlayerPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Ball.cs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <option value="$PROJECT_DIR$/Assets/PlayerRevival.cs" />
@@ -65,6 +69,10 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/PlayerInteraction.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerRevival.cs" />
 >>>>>>> parent of 19007a1... 2021/1/10 #1
+=======
+        <option value="$PROJECT_DIR$/Assets/_Scripts/PlayerInteraction.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/DoorController.cs" />
+>>>>>>> parent of be08006... 2021/1/10 update
       </list>
     </option>
   </component>
@@ -114,6 +122,7 @@
       <workItem from="1606397834888" duration="2454000" />
       <workItem from="1606472601723" duration="1126000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1607619053327" duration="686000" />
       <workItem from="1609863747172" duration="1726000" />
       <workItem from="1610228027247" duration="4672000" />
@@ -123,6 +132,8 @@
 >>>>>>> parent of be08006... 2021/1/10 update
 =======
 >>>>>>> parent of 19007a1... 2021/1/10 #1
+=======
+>>>>>>> parent of be08006... 2021/1/10 update
     </task>
     <servers />
   </component>
