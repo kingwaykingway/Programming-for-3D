@@ -17,7 +17,6 @@ public class PlayerRevival : MonoBehaviour
     {
         if (transform.position.y < playerRespawnCriticalHeight)
         {
-            Debug.Log(transform.position.y);
             Respawn();
         }
     }

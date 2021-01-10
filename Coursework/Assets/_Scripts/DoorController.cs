@@ -30,7 +30,6 @@ public class DoorController : MonoBehaviour
     public void Open()
     {
         _animator.SetBool("IsOpen", true);
-        // SpawnBall();
     }
 
     private void OnCollisionEnter(Collision other)
@@ -38,7 +37,6 @@ public class DoorController : MonoBehaviour
         if (other.gameObject.tag.Equals("Player"))
         {
             Debug.Log(gameObject + " hit the player");
-            // _animator
         }
     }
 
@@ -74,11 +72,6 @@ public class DoorController : MonoBehaviour
         var pos = ballSpawningPosition;
         if (useRelativePosition)
         {
-            /*var p = transform;
-            while (p.parent != null)
-            {
-                p = p.parent;
-            }*/
             pos += transform.root.position;
         }
         Instantiate(b, pos, Quaternion.identity);
