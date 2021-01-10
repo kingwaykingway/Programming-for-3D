@@ -35,6 +35,10 @@
             <e p="wood-938698.shader" t="Include" />
           </e>
         </e>
+<<<<<<< HEAD
+=======
+        <e p="PlayerRevival.cs" t="Include" />
+>>>>>>> parent of 19007a1... 2021/1/10 #1
         <e p="QuickOutline" t="Include">
           <e p="Readme.txt" t="Include" />
           <e p="Resources" t="Include">

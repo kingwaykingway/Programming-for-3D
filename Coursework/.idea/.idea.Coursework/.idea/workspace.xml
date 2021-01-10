@@ -34,6 +34,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/Assets/LightSwitch.cs" root0="FORCE_HIGHLIGHTING" />
 =======
 >>>>>>> parent of be08006... 2021/1/10 update
@@ -42,6 +43,9 @@
 >>>>>>> parent of 19007a1... 2021/1/10 #1
 =======
 >>>>>>> parent of be08006... 2021/1/10 update
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerRevival.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> parent of 19007a1... 2021/1/10 #1
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -52,6 +56,7 @@
         <option value="$PROJECT_DIR$/Assets/Outline Diffuse.shader" />
         <option value="$PROJECT_DIR$/Assets/PlayerPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Ball.cs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73,6 +78,11 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/PlayerInteraction.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/DoorController.cs" />
 >>>>>>> parent of be08006... 2021/1/10 update
+=======
+        <option value="$PROJECT_DIR$/Assets/_Scripts/DoorController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/PlayerInteraction.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerRevival.cs" />
+>>>>>>> parent of 19007a1... 2021/1/10 #1
       </list>
     </option>
   </component>
@@ -127,6 +137,7 @@
       <workItem from="1609863747172" duration="1726000" />
       <workItem from="1610228027247" duration="4672000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1610289095115" duration="8310000" />
 =======
 >>>>>>> parent of be08006... 2021/1/10 update
@@ -134,6 +145,8 @@
 >>>>>>> parent of 19007a1... 2021/1/10 #1
 =======
 >>>>>>> parent of be08006... 2021/1/10 update
+=======
+>>>>>>> parent of 19007a1... 2021/1/10 #1
     </task>
     <servers />
   </component>

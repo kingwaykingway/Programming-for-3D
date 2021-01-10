@@ -36,6 +36,7 @@ public class DoorController : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         SpawnBall();
 >>>>>>> parent of be08006... 2021/1/10 update
@@ -45,6 +46,9 @@ public class DoorController : MonoBehaviour
 =======
         SpawnBall();
 >>>>>>> parent of be08006... 2021/1/10 update
+=======
+        // SpawnBall();
+>>>>>>> parent of 19007a1... 2021/1/10 #1
     }
 
     private void OnCollisionEnter(Collision other)
@@ -53,6 +57,18 @@ public class DoorController : MonoBehaviour
         {
             Debug.Log(gameObject + " hit the player");
             // _animator
+<<<<<<< HEAD
+=======
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            _enteredPosition = other.transform.position;
+            _isPlayerPassing = true;
+>>>>>>> parent of 19007a1... 2021/1/10 #1
         }
     }
 
