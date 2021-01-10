@@ -12885,7 +12885,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1365818545}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce9dc3a040eb3534da3b28480ca4a8f3, type: 3}
+  m_Script: {fileID: 11500000, guid: e140394c7e20a3a499c0037162942ae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerRespawnCriticalHeight: -50
@@ -20307,6 +20307,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
       value: -6.2252007
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596438089590777463, guid: 893145e3de06ed54db2754800345e7fd,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5596438089718732425, guid: 893145e3de06ed54db2754800345e7fd,
         type: 3}

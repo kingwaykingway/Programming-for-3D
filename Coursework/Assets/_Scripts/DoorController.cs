@@ -30,7 +30,6 @@ public class DoorController : MonoBehaviour
     public void Open()
     {
         _animator.SetBool("IsOpen", true);
-        SpawnBall();
     }
 
     private void OnCollisionEnter(Collision other)
@@ -52,9 +51,17 @@ public class DoorController : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {        
-        if (other.gameObject.tag.Equals("Player"))
+        if (other.gameObject.CompareTag("Player") && _isPlayerPassing)
         {
             _animator.SetBool("IsOpen", false);
+
+            var exitPosition = other.transform.position;
+            if (exitPosition.z > transform.position.z && _enteredPosition.z < transform.position.z)
+            {
+                SpawnBall();
+            }
+
+            _isPlayerPassing = false;
         }
     }
 

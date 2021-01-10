@@ -52,6 +52,10 @@ public class PlayerInteraction : MonoBehaviour
                 {
                     _highlightedObject.GetComponent<DoorController>().Open();
                 }
+                else if (_highlightedObject.GetComponent<LightSwitch>())
+                {
+                    _highlightedObject.GetComponent<LightSwitch>().Toggle();
+                }
                 else if (_heldBall == null)
                 {
                     pickUpBall();
