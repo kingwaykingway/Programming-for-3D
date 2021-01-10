@@ -12,8 +12,8 @@ public class LightSwitch : MonoBehaviour
     
     void Start()
     {
-        _isSwitchedOn = (lightObject != null && lightObject.active) 
-                        || (audioObject != null && audioObject.active);
+        _isSwitchedOn = lightObject != null && lightObject.active 
+                        || audioObject != null && audioObject.active;
     }
 
     public void Toggle()
