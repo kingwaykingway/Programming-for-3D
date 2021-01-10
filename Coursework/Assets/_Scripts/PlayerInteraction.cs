@@ -77,6 +77,10 @@ public class PlayerInteraction : MonoBehaviour
     {
         if (other.tag.Equals("Interactive"))
         {
+<<<<<<< HEAD
+=======
+            Debug.Log("1");
+>>>>>>> parent of be08006... 2021/1/10 update
             _reachableObjects.Add(other.gameObject);
         }
     }
